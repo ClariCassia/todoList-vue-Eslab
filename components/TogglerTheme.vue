@@ -29,6 +29,12 @@
  */
 const colorMode = useColorMode();
 
+onMounted(() => {
+  if (colorMode.preference === undefined) {
+    colorMode.preference = 'light'; // Define como claro por padrão
+  }
+});
+
 /**
  * Alterna o modo de cor entre claro e escuro.
  *
@@ -53,7 +59,6 @@ const toggleColorMode = () => {
 </script>
 
 <style scoped>
-
 div {
   padding: 10px;
 }
