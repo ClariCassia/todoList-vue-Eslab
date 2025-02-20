@@ -41,7 +41,6 @@ const props = defineProps({
     flex-direction: column;
     align-items: center;
     border: 0px solid black;
-    box-shadow: var(--shadow-soft);
 }
 
 .progress-bar {

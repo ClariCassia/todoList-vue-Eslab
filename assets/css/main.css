@@ -1,32 +1,41 @@
 :root {
   --bg-color: #FAFAFA;
-  ;
   --text-color: #424242;
-  --button-color:#42A5F5;
+  --button-color: #42A5F5;
+  --shadow-light: 1px 1px 3px rgba(255, 255, 255, 0.2);
   --shadow-soft: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .dark {
   --bg-color: #212121;
   --text-color: #FAFAFA;
+  --shadow-soft: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-light: 1px 1px 3px rgba(255, 255, 255, 0.2);
 }
 
 body {
   background: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
-  font-family: "Lato", serif;  
-} 
+  font-family: "Lato", serif;
+}
 
-.form-element{
+.form-element {
   color: var(--text-color);
-  
+}
+
+.tasks-progress {
+  box-shadow: var(--shadow-soft);
+}
+
+.dark .tasks-progress {
+  box-shadow: var(--shadow-light);
 }
 
 ul li {
   list-style: none;
 }
 
-ul{
+ul {
   padding: 0;
 }
