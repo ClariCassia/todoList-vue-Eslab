@@ -1,0 +1,22 @@
+{
+    "source": {
+      "include": [
+        "components",
+        "pages",
+        "layouts",
+        "store"
+      ],
+      "exclude": ["node_modules"],
+      "includePattern": ".+\\.ts$"
+    },
+    "opts": {
+      "destination": "./docs",
+      "recurse": true,
+      "template": "node_modules/jsdoc-template",
+      "tutorials": "tutorials"
+    },
+    "plugins": [
+      "node_modules/jsdoc/typescript"
+    ]
+  }
+  
