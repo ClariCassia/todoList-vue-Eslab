@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@pinia/nuxt', '@nuxtjs/color-mode', 'pinia-plugin-persistedstate/nuxt','@vesp/nuxt-fontawesome'],
   colorMode: {
-    preference: 'dark', // Define o tema inicial (pode ser 'light' ou 'dark'
+    preference: 'light', 
     classSuffix: '',
     fallback: 'dark'
   },
