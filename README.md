@@ -3,13 +3,8 @@
 </div>
 
 <h1 align="center" fontSize="60px">
- TodoList - Vue
+ TodoList - Eslab
 </h1>
-
-<div align="center">
-<h3>Layout</h3>
-  <img alt="Layout da aplicação" width="10%" src="./public/images/gif-desktop.gif" />
-</div>
 
 ## 💻 Projeto
 
