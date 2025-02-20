@@ -17,7 +17,7 @@ O propósito da aplicação dessa aplicação desenvolvida com Vue.js é
  focada em proporcionar uma gestão de tarefas prática e intuitiva. A interface oferece uma série de funcionalidades essenciais para uma experiência de usuário fluida e eficiente.
  
 
-#### Para ver o projeto pronto [clique aqui](https://clari-cassia-projetcs-pokedex.vercel.app/)🚀
+#### Para ver o projeto pronto [clique aqui](https://clari-cassia-projetcs-todo-list-vue-eslab.vercel.app/)🚀
 
 ## ⚙️Funcionalidades
 📝 Adicionar Tarefa: Permite adicionar novas tarefas com validação que evita a criação de tarefas vazias ou duplicadas.
