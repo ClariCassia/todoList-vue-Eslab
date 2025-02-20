@@ -91,7 +91,7 @@ Essas decisões foram tomadas com o objetivo de criar uma aplicação eficiente,
    ```
 
 - É possível também baixar o arquivo e desconpactar localmente:
-- ![imagem](./src/assets/gifs/download-project.gif)
+- 📥(https://github.com/ClariCassia/todoList-vue-Eslab/archive/refs/heads/main.zip)
 
  **2. Acesse o Diretório:**
 
@@ -113,7 +113,7 @@ Essas decisões foram tomadas com o objetivo de criar uma aplicação eficiente,
    ```
 
  **5. Acesse a Aplicação:**
-   Abra o navegador e acesse [http://localhost:5173/](http://localhost:5173/).
+   Abra o navegador e acesse [http://localhost:/](http://localhost:).
 
 ## 🤝 Contribuições
 
