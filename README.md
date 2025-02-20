@@ -17,7 +17,7 @@ O propósito da aplicação dessa aplicação desenvolvida com Vue.js é
  focada em proporcionar uma gestão de tarefas prática e intuitiva. A interface oferece uma série de funcionalidades essenciais para uma experiência de usuário fluida e eficiente.
  
 
-#### Para ver o projeto pronto [clique aqui](https://clari-cassia-projetcs-pokedex.vercel.app/)🚀
+#### Para ver o projeto pronto [clique aqui](https://clari-cassia-projetcs-todo-list-vue-eslab.vercel.app/)🚀
 
 ## ⚙️Funcionalidades
 📝 Adicionar Tarefa: Permite adicionar novas tarefas com validação que evita a criação de tarefas vazias ou duplicadas.
@@ -86,12 +86,12 @@ Essas decisões foram tomadas com o objetivo de criar uma aplicação eficiente,
    Dentro da pasta onde deseja salvar o projeto, abra o git e efetuar o comando
 
    ```bash
-   git clone https://github.com/ClariCassia/Pokedex.git
+   git clone https://github.com/ClariCassia/todoList-vue-Eslab.git
    
    ```
 
 - É possível também baixar o arquivo e desconpactar localmente:
-- ![imagem](./src/assets/gifs/download-project.gif)
+- 📥(https://github.com/ClariCassia/todoList-vue-Eslab/archive/refs/heads/main.zip)
 
  **2. Acesse o Diretório:**
 
@@ -113,7 +113,7 @@ Essas decisões foram tomadas com o objetivo de criar uma aplicação eficiente,
    ```
 
  **5. Acesse a Aplicação:**
-   Abra o navegador e acesse [http://localhost:5173/](http://localhost:5173/).
+   Abra o navegador e acesse [http://localhost:/](http://localhost:).
 
 ## 🤝 Contribuições
 
