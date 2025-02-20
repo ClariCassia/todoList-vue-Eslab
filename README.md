@@ -85,7 +85,7 @@ Essas decisões foram tomadas com o objetivo de criar uma aplicação eficiente,
    
    ```
 
-- É possível também baixar o arquivo e desconpactar localmente:
+- É possível também baixar o arquivo e descompactar localmente:
 - 📥(https://github.com/ClariCassia/todoList-vue-Eslab/archive/refs/heads/main.zip)
 
  **2. Acesse o Diretório:**
