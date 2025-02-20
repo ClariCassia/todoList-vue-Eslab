@@ -86,7 +86,7 @@ Essas decisões foram tomadas com o objetivo de criar uma aplicação eficiente,
    Dentro da pasta onde deseja salvar o projeto, abra o git e efetuar o comando
 
    ```bash
-   git clone https://github.com/ClariCassia/Pokedex.git
+   git clone https://github.com/ClariCassia/todoList-vue-Eslab.git
    
    ```
 
