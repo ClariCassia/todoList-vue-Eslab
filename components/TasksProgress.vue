@@ -68,4 +68,10 @@ const props = defineProps({
     color: #FFF;
     margin: 0;
 }
+
+@media (max-width: 480px) {
+    .tasks-progress {
+        width: 80%;
+    }
+}
 </style>

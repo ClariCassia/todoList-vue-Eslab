@@ -1,6 +1,6 @@
 <template>
-    <div class="container-list">
-        <TasksFilter></TasksFilter>       
+    <div>
+        <TasksFilter></TasksFilter>
         <TasksProgress :progress="processed()" :tasks="taskStore.filteredTasks"></TasksProgress>
         <ul>
             <TaskItem v-for="(task, index) in taskStore.filteredTasks" :key="task.name" :task="task" :index="index" />

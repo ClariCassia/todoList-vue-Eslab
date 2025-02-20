@@ -52,7 +52,7 @@ main {
 
 @media (max-width: 480px) {
     .container h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .container img {

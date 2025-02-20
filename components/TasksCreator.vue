@@ -133,7 +133,7 @@ button:hover {
 
 @media (max-width: 480px) {
   input.form-element {
-    width: 350px;
+    width: 280px;
     height: 30px;
   }
 }

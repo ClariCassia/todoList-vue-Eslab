@@ -222,4 +222,10 @@ const saveEdit = () => {
   color: #cacac7;
   transition: color 0.3s;
 }
+
+@media (max-width: 480px) {
+  .card-task {
+    width: 90%;
+  }
+}
 </style>
