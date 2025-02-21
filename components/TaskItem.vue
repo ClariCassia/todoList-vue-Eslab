@@ -1,22 +1,22 @@
 <template>
   <li class="container">
     <div class="card-task" :class="stateClass">
-      <span v-if="!editing" class="span">
+      <span v-if="!editing" class="span-edit">
         <span :class="{ 'completed': !task.pending }" class="task">{{ task.name }}</span>
         <div>
         </div>
         <div class="container-buttons">
-          <span class="buttons" @click="toggleTask(index)" :title="stateTitle"><font-awesome icon="check" /></span>
-          <span class="buttons" @click="startEditing"> <font-awesome icon="pencil" title="Editar Tarefa" /></span>
-          <span class="buttons" @click="removeTask(index)" title="Excluir Tarefa"> <font-awesome icon="trash"
-              class="close" /></span>
+          <button class="buttons" @click="toggleTask(index)" :title="stateTitle"><font-awesome icon="check" /></button>
+          <button class="buttons" @click="startEditing"> <font-awesome icon="pencil" title="Editar Tarefa" /></button>
+          <button class="buttons" @click="removeTask(index)" title="Excluir Tarefa"> <font-awesome icon="trash"
+              class="close" /></button>
         </div>
       </span>
 
-      <span class="span" v-else>
+      <span class="span-edit" v-else>
         <input v-model="newTaskName" />
         <div class="buttons-edit">
-          <span @click="saveEdit" class="buttons" title="Editar Tarefa"> <font-awesome icon="floppy-disk" /></span>
+          <button @click="saveEdit" class="buttons" title="Editar Tarefa"> <font-awesome icon="floppy-disk" /></button>
           <span class="buttons" @click="removeTask(index)" title="Excluir Tarefa"> <font-awesome icon="trash"
               class="close" /></span>
         </div>
@@ -163,14 +163,14 @@ const saveEdit = () => {
   color: #FAFAFA;
 }
 
-.span {
+.span-edit {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
 
-.span input {
+.span-edit input {
   border: none;
   outline: none;
   font-size: 1.2rem;
@@ -188,7 +188,9 @@ const saveEdit = () => {
 }
 
 .buttons {
+  all: unset;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .pending {

@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <form @submit.prevent="validateInput">
     <input v-model="newTask" type="text" class="form-element" placeholder="Adicione uma nova tarefa"
-      :class="{ 'input-error': nameError }" @keydown.enter="validateInput" @focus="clearError" ref="newTaskInput">
+      :class="{ 'input-error': nameError }" @focus="clearError" ref="newTaskInput">
 
-    <button @click="validateInput" class="form-element" title="Adicionar nova tarefa">+</button>
+    <button type="submit" class="form-element" title="Adicionar nova tarefa">+</button>
 
     <div><span v-if="nameError" class="error-message">{{ nameError }}</span></div>
-  </div>
+  </form>
 </template>
 
 <script setup>
